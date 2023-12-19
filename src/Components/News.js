@@ -50,7 +50,7 @@ const News = (props) => {
         className="text-center "
         style={{ margin: "35px,0px", marginTop: "80px" }}
       >
-        <strong> NewsMonkey - Top {props.category} Headlines </strong>
+        <strong> UpToDate - Top {props.category} Headlines </strong>
       </h1>
       {loading && <Spinner />}
 
